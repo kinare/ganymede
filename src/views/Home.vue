@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div id="home">
+    <hero />
+
+    <near-by-list />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
+import Hero from "@/views/partials/Hero";
+import NearByList from "@/views/partials/NearbyList";
 export default {
   name: "Home",
-  components: {
-    HelloWorld
-  }
+  components: { NearByList, Hero }
 };
 </script>
