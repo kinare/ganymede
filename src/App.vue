@@ -1,5 +1,8 @@
 <template>
-  <div id="app">
+  <div
+    id="app"
+    style="max-width: 736px; margin: auto; height: 100vh; background-color: white"
+  >
     <router-view />
   </div>
 </template>

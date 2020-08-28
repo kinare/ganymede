@@ -3,7 +3,7 @@ export default {
   state: {
     restaurants: [
       {
-        id: "DELG198141082",
+        id: "THELEEKS",
         name: "The Leeks Restaurant",
         description: "Quality delicious meals for everyone",
         location: "Ruaka Joyland",
@@ -97,7 +97,7 @@ export default {
                 name: "Fried Beef",
                 description:
                   "Tender beef boiled with potatoes, carrots, onion and capsicum Finished with spinach and coriander",
-                price: "1,500Ksh"
+                price: "1,500"
               },
               {
                 name: "Kienyeji Chicken",
