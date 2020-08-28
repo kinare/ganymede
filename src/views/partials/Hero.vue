@@ -15,12 +15,13 @@
           class="heading is-size-5-mobile has-text-weight-bold"
           style="text-shadow: 2px -1px 6px rgba(150, 150, 150, 1);"
         >
-          No touch menu for restaurants
+          No touch menu <br />for restaurants
         </h4>
       </div>
     </div>
 
     <b-button
+      @click="scan"
       class="scan-button is-rounded"
       type="is-primary"
       size="is-medium"
@@ -38,6 +39,11 @@ export default {
   name: "Hero",
   components: {
     Nav
+  },
+  methods: {
+    scan: function() {
+      this.$router.push("/scan");
+    }
   }
 };
 </script>
